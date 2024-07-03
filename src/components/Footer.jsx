@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
@@ -13,15 +12,16 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/X';
 
 const logoStyle = {
-  width: '140px',
+  width: '80px',
   height: 'auto',
+  marginLeft:"15px"
 };
 
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" mt={1}>
       {'Copyright © '}
-      <Link href="https://mui.com/">Sitemark&nbsp;</Link>
+      <Link href="https://nivedram.online">Nived Ram&nbsp;</Link>
       {new Date().getFullYear()}
     </Typography>
   );
@@ -191,7 +191,7 @@ export default function Footer() {
         >
           <IconButton
             color="inherit"
-            href="https://github.com/mui"
+            href="https://nivedram.online"
             aria-label="GitHub"
             sx={{ alignSelf: 'center' }}
           >
@@ -199,7 +199,7 @@ export default function Footer() {
           </IconButton>
           <IconButton
             color="inherit"
-            href="https://x.com/MaterialUI"
+            href="https://nivedram.online"
             aria-label="X"
             sx={{ alignSelf: 'center' }}
           >
@@ -207,7 +207,7 @@ export default function Footer() {
           </IconButton>
           <IconButton
             color="inherit"
-            href="https://www.linkedin.com/company/mui/"
+            href="https://nivedram.online"
             aria-label="LinkedIn"
             sx={{ alignSelf: 'center' }}
           >

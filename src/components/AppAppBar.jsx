@@ -108,7 +108,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 size="small"
                 component="a"
               >
-                logout
+                Logout
               </Button>
             </Box>
             <Box sx={{ display: { sm: "", md: "none" } }}>
